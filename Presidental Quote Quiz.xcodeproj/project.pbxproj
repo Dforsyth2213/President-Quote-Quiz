@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F7EF9E51CB6C9BE00473824 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7EF9E41CB6C9BE00473824 /* AppDelegate.swift */; };
+		3F7EF9E71CB6C9BE00473824 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7EF9E61CB6C9BE00473824 /* ViewController.swift */; };
+		3F7EF9EA1CB6C9BE00473824 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7EF9E81CB6C9BE00473824 /* Main.storyboard */; };
+		3F7EF9EC1CB6C9BE00473824 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F7EF9EB1CB6C9BE00473824 /* Assets.xcassets */; };
+		3F7EF9EF1CB6C9BE00473824 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7EF9ED1CB6C9BE00473824 /* LaunchScreen.storyboard */; };
+		3F7EF9FA1CB6C9BE00473824 /* Presidental_Quote_QuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7EF9F91CB6C9BE00473824 /* Presidental_Quote_QuizTests.swift */; };
+		3F7EFA051CB6C9BE00473824 /* Presidental_Quote_QuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7EFA041CB6C9BE00473824 /* Presidental_Quote_QuizUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F7EF9F61CB6C9BE00473824 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F7EF9D91CB6C9BE00473824 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F7EF9E01CB6C9BE00473824;
+			remoteInfo = "Presidental Quote Quiz";
+		};
+		3F7EFA011CB6C9BE00473824 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F7EF9D91CB6C9BE00473824 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F7EF9E01CB6C9BE00473824;
+			remoteInfo = "Presidental Quote Quiz";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F7EF9E11CB6C9BE00473824 /* Presidental Quote Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Presidental Quote Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F7EF9E41CB6C9BE00473824 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F7EF9E61CB6C9BE00473824 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F7EF9E91CB6C9BE00473824 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F7EF9EB1CB6C9BE00473824 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F7EF9EE1CB6C9BE00473824 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F7EF9F01CB6C9BE00473824 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F7EF9F51CB6C9BE00473824 /* Presidental Quote QuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Presidental Quote QuizTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F7EF9F91CB6C9BE00473824 /* Presidental_Quote_QuizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presidental_Quote_QuizTests.swift; sourceTree = "<group>"; };
+		3F7EF9FB1CB6C9BE00473824 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F7EFA001CB6C9BE00473824 /* Presidental Quote QuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Presidental Quote QuizUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F7EFA041CB6C9BE00473824 /* Presidental_Quote_QuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presidental_Quote_QuizUITests.swift; sourceTree = "<group>"; };
+		3F7EFA061CB6C9BE00473824 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F7EF9DE1CB6C9BE00473824 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F7EF9F21CB6C9BE00473824 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F7EF9FD1CB6C9BE00473824 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F7EF9D81CB6C9BE00473824 = {
+			isa = PBXGroup;
+			children = (
+				3F7EF9E31CB6C9BE00473824 /* Presidental Quote Quiz */,
+				3F7EF9F81CB6C9BE00473824 /* Presidental Quote QuizTests */,
+				3F7EFA031CB6C9BE00473824 /* Presidental Quote QuizUITests */,
+				3F7EF9E21CB6C9BE00473824 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F7EF9E21CB6C9BE00473824 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F7EF9E11CB6C9BE00473824 /* Presidental Quote Quiz.app */,
+				3F7EF9F51CB6C9BE00473824 /* Presidental Quote QuizTests.xctest */,
+				3F7EFA001CB6C9BE00473824 /* Presidental Quote QuizUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F7EF9E31CB6C9BE00473824 /* Presidental Quote Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				3F7EF9E41CB6C9BE00473824 /* AppDelegate.swift */,
+				3F7EF9E61CB6C9BE00473824 /* ViewController.swift */,
+				3F7EF9E81CB6C9BE00473824 /* Main.storyboard */,
+				3F7EF9EB1CB6C9BE00473824 /* Assets.xcassets */,
+				3F7EF9ED1CB6C9BE00473824 /* LaunchScreen.storyboard */,
+				3F7EF9F01CB6C9BE00473824 /* Info.plist */,
+			);
+			path = "Presidental Quote Quiz";
+			sourceTree = "<group>";
+		};
+		3F7EF9F81CB6C9BE00473824 /* Presidental Quote QuizTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F7EF9F91CB6C9BE00473824 /* Presidental_Quote_QuizTests.swift */,
+				3F7EF9FB1CB6C9BE00473824 /* Info.plist */,
+			);
+			path = "Presidental Quote QuizTests";
+			sourceTree = "<group>";
+		};
+		3F7EFA031CB6C9BE00473824 /* Presidental Quote QuizUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F7EFA041CB6C9BE00473824 /* Presidental_Quote_QuizUITests.swift */,
+				3F7EFA061CB6C9BE00473824 /* Info.plist */,
+			);
+			path = "Presidental Quote QuizUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F7EF9E01CB6C9BE00473824 /* Presidental Quote Quiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F7EFA091CB6C9BE00473824 /* Build configuration list for PBXNativeTarget "Presidental Quote Quiz" */;
+			buildPhases = (
+				3F7EF9DD1CB6C9BE00473824 /* Sources */,
+				3F7EF9DE1CB6C9BE00473824 /* Frameworks */,
+				3F7EF9DF1CB6C9BE00473824 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Presidental Quote Quiz";
+			productName = "Presidental Quote Quiz";
+			productReference = 3F7EF9E11CB6C9BE00473824 /* Presidental Quote Quiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F7EF9F41CB6C9BE00473824 /* Presidental Quote QuizTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F7EFA0C1CB6C9BE00473824 /* Build configuration list for PBXNativeTarget "Presidental Quote QuizTests" */;
+			buildPhases = (
+				3F7EF9F11CB6C9BE00473824 /* Sources */,
+				3F7EF9F21CB6C9BE00473824 /* Frameworks */,
+				3F7EF9F31CB6C9BE00473824 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F7EF9F71CB6C9BE00473824 /* PBXTargetDependency */,
+			);
+			name = "Presidental Quote QuizTests";
+			productName = "Presidental Quote QuizTests";
+			productReference = 3F7EF9F51CB6C9BE00473824 /* Presidental Quote QuizTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F7EF9FF1CB6C9BE00473824 /* Presidental Quote QuizUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F7EFA0F1CB6C9BE00473824 /* Build configuration list for PBXNativeTarget "Presidental Quote QuizUITests" */;
+			buildPhases = (
+				3F7EF9FC1CB6C9BE00473824 /* Sources */,
+				3F7EF9FD1CB6C9BE00473824 /* Frameworks */,
+				3F7EF9FE1CB6C9BE00473824 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F7EFA021CB6C9BE00473824 /* PBXTargetDependency */,
+			);
+			name = "Presidental Quote QuizUITests";
+			productName = "Presidental Quote QuizUITests";
+			productReference = 3F7EFA001CB6C9BE00473824 /* Presidental Quote QuizUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F7EF9D91CB6C9BE00473824 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = dforsyth;
+				TargetAttributes = {
+					3F7EF9E01CB6C9BE00473824 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					3F7EF9F41CB6C9BE00473824 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 3F7EF9E01CB6C9BE00473824;
+					};
+					3F7EF9FF1CB6C9BE00473824 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 3F7EF9E01CB6C9BE00473824;
+					};
+				};
+			};
+			buildConfigurationList = 3F7EF9DC1CB6C9BE00473824 /* Build configuration list for PBXProject "Presidental Quote Quiz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F7EF9D81CB6C9BE00473824;
+			productRefGroup = 3F7EF9E21CB6C9BE00473824 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F7EF9E01CB6C9BE00473824 /* Presidental Quote Quiz */,
+				3F7EF9F41CB6C9BE00473824 /* Presidental Quote QuizTests */,
+				3F7EF9FF1CB6C9BE00473824 /* Presidental Quote QuizUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F7EF9DF1CB6C9BE00473824 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7EF9EF1CB6C9BE00473824 /* LaunchScreen.storyboard in Resources */,
+				3F7EF9EC1CB6C9BE00473824 /* Assets.xcassets in Resources */,
+				3F7EF9EA1CB6C9BE00473824 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F7EF9F31CB6C9BE00473824 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F7EF9FE1CB6C9BE00473824 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F7EF9DD1CB6C9BE00473824 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7EF9E71CB6C9BE00473824 /* ViewController.swift in Sources */,
+				3F7EF9E51CB6C9BE00473824 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F7EF9F11CB6C9BE00473824 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7EF9FA1CB6C9BE00473824 /* Presidental_Quote_QuizTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F7EF9FC1CB6C9BE00473824 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7EFA051CB6C9BE00473824 /* Presidental_Quote_QuizUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F7EF9F71CB6C9BE00473824 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F7EF9E01CB6C9BE00473824 /* Presidental Quote Quiz */;
+			targetProxy = 3F7EF9F61CB6C9BE00473824 /* PBXContainerItemProxy */;
+		};
+		3F7EFA021CB6C9BE00473824 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F7EF9E01CB6C9BE00473824 /* Presidental Quote Quiz */;
+			targetProxy = 3F7EFA011CB6C9BE00473824 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F7EF9E81CB6C9BE00473824 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F7EF9E91CB6C9BE00473824 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F7EF9ED1CB6C9BE00473824 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F7EF9EE1CB6C9BE00473824 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F7EFA071CB6C9BE00473824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F7EFA081CB6C9BE00473824 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F7EFA0A1CB6C9BE00473824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Presidental Quote Quiz/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ForsythINC.Presidental-Quote-Quiz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F7EFA0B1CB6C9BE00473824 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Presidental Quote Quiz/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ForsythINC.Presidental-Quote-Quiz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3F7EFA0D1CB6C9BE00473824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Presidental Quote QuizTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ForsythINC.Presidental-Quote-QuizTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Presidental Quote Quiz.app/Presidental Quote Quiz";
+			};
+			name = Debug;
+		};
+		3F7EFA0E1CB6C9BE00473824 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Presidental Quote QuizTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ForsythINC.Presidental-Quote-QuizTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Presidental Quote Quiz.app/Presidental Quote Quiz";
+			};
+			name = Release;
+		};
+		3F7EFA101CB6C9BE00473824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Presidental Quote QuizUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ForsythINC.Presidental-Quote-QuizUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Presidental Quote Quiz";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3F7EFA111CB6C9BE00473824 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Presidental Quote QuizUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ForsythINC.Presidental-Quote-QuizUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Presidental Quote Quiz";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F7EF9DC1CB6C9BE00473824 /* Build configuration list for PBXProject "Presidental Quote Quiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F7EFA071CB6C9BE00473824 /* Debug */,
+				3F7EFA081CB6C9BE00473824 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F7EFA091CB6C9BE00473824 /* Build configuration list for PBXNativeTarget "Presidental Quote Quiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F7EFA0A1CB6C9BE00473824 /* Debug */,
+				3F7EFA0B1CB6C9BE00473824 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F7EFA0C1CB6C9BE00473824 /* Build configuration list for PBXNativeTarget "Presidental Quote QuizTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F7EFA0D1CB6C9BE00473824 /* Debug */,
+				3F7EFA0E1CB6C9BE00473824 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F7EFA0F1CB6C9BE00473824 /* Build configuration list for PBXNativeTarget "Presidental Quote QuizUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F7EFA101CB6C9BE00473824 /* Debug */,
+				3F7EFA111CB6C9BE00473824 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F7EF9D91CB6C9BE00473824 /* Project object */;
+}
