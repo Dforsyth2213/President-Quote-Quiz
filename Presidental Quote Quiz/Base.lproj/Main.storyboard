@@ -89,10 +89,19 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Ou-GR-0R8">
+                                <rect key="frame" x="256" y="353" width="88" height="50"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Start"/>
+                                <connections>
+                                    <segue destination="chI-HA-gb0" kind="show" id="jH6-6B-uTB"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.52510364427485057" green="0.6385161975892073" blue="0.81109927398989901" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="grE-KY-PfT" firstAttribute="centerX" secondItem="xUd-Zb-UrG" secondAttribute="centerX" id="Dkk-Hc-mb2"/>
+                            <constraint firstItem="2Ou-GR-0R8" firstAttribute="centerX" secondItem="xUd-Zb-UrG" secondAttribute="centerX" id="fE3-GN-Ixa"/>
                             <constraint firstItem="miO-ip-PCO" firstAttribute="centerX" secondItem="xUd-Zb-UrG" secondAttribute="centerX" id="iRs-if-YkA"/>
                             <constraint firstItem="4xT-Ml-UaX" firstAttribute="centerX" secondItem="xUd-Zb-UrG" secondAttribute="centerX" id="sF2-g1-8Mw"/>
                             <constraint firstItem="dtc-r7-953" firstAttribute="centerX" secondItem="xUd-Zb-UrG" secondAttribute="centerX" id="w8R-Mg-x7R"/>
@@ -115,19 +124,46 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&quot;Make America Great Again&quot;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iQ7-Zu-xLx">
-                                <rect key="frame" x="20" y="69" width="560" height="38"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="&quot;Make America Great Again&quot;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iQ7-Zu-xLx">
+                                <rect key="frame" x="20" y="88" width="560" height="38"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dxp-sw-bHb">
+                                <rect key="frame" x="219" y="331" width="163" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Donald Trump"/>
+                                <connections>
+                                    <segue destination="9Fl-kg-Bbq" kind="show" id="EZn-4h-gq7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oyH-UO-hZC">
+                                <rect key="frame" x="219" y="411" width="163" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Hillary Clinton"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b4w-u7-lOF">
+                                <rect key="frame" x="219" y="171" width="163" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Marco Rubio"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UGR-AM-A0C">
+                                <rect key="frame" x="219" y="251" width="163" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Ted Cruz"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.84651199494949492" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="iQ7-Zu-xLx" firstAttribute="centerX" secondItem="XFp-0U-m9R" secondAttribute="centerX" id="c4y-Az-J55"/>
+                            <constraint firstItem="dxp-sw-bHb" firstAttribute="centerX" secondItem="XFp-0U-m9R" secondAttribute="centerX" id="t2D-RO-tYI"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ggU-Zq-rIm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1573" y="323"/>
+            <point key="canvasLocation" x="1584" y="323"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="t6M-Wl-dWf">
@@ -141,19 +177,48 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&quot;Women are the largest untapped reservoir of talent in the world&quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w4d-kw-Rss">
-                                <rect key="frame" x="20" y="65" width="560" height="105"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="&quot;Women are the largest untapped reservoir of talent in the world&quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w4d-kw-Rss">
+                                <rect key="frame" x="20" y="65" width="560" height="137"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LAO-q5-x0o">
+                                <rect key="frame" x="191" y="233" width="219" height="74"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Hillary Clinton"/>
+                                <connections>
+                                    <segue destination="Y30-S9-SAI" kind="show" id="gag-p7-hkV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ys0-2Q-mwa">
+                                <rect key="frame" x="209" y="315" width="182" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Margaret Thatcher"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qUM-ro-0ZO">
+                                <rect key="frame" x="219" y="395" width="163" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Karly Fiorina"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n4o-Vk-RyS">
+                                <rect key="frame" x="219" y="475" width="163" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Sara Palin"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.52510364430000001" green="0.6385161976" blue="0.81109927400000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="LAO-q5-x0o" firstAttribute="centerX" secondItem="RME-s0-NMY" secondAttribute="centerX" id="0mf-mf-J03"/>
+                            <constraint firstItem="w4d-kw-Rss" firstAttribute="centerX" secondItem="RME-s0-NMY" secondAttribute="centerX" id="6xs-k7-Xi2"/>
+                            <constraint firstItem="w4d-kw-Rss" firstAttribute="trailing" secondItem="RME-s0-NMY" secondAttribute="trailingMargin" id="FfD-BL-5vC"/>
+                            <constraint firstItem="w4d-kw-Rss" firstAttribute="leading" secondItem="RME-s0-NMY" secondAttribute="leadingMargin" id="sef-Ju-eWN"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v1t-ax-7v4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2222" y="323"/>
+            <point key="canvasLocation" x="4784" y="323"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="PUC-J2-vUL">
@@ -167,14 +232,43 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&quot;You know, let me be very clear. I supported Barack Obama Originally&quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DJJ-6Z-Qle">
-                                <rect key="frame" x="20" y="76" width="560" height="84"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="&quot;You know, let me be very clear. I supported Barack Obama Originally&quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DJJ-6Z-Qle">
+                                <rect key="frame" x="20" y="76" width="560" height="128"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o6y-FO-Sdh">
+                                <rect key="frame" x="210" y="292" width="180" height="77"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Bernie Sanders"/>
+                                <connections>
+                                    <segue destination="qS8-uo-NHB" kind="show" id="299-n6-hlb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wK8-S0-221">
+                                <rect key="frame" x="219" y="377" width="163" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Bill Clinton"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hIH-vi-uZy">
+                                <rect key="frame" x="219" y="457" width="163" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Ted Cruz"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="52e-ml-bMm">
+                                <rect key="frame" x="227" y="212" width="163" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Hilary Clinton"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.84651199489999995" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="DJJ-6Z-Qle" firstAttribute="centerX" secondItem="kYq-Co-sad" secondAttribute="centerX" id="33p-GV-LNe"/>
+                            <constraint firstItem="DJJ-6Z-Qle" firstAttribute="trailing" secondItem="kYq-Co-sad" secondAttribute="trailingMargin" id="IzG-WR-6yR"/>
+                            <constraint firstItem="DJJ-6Z-Qle" firstAttribute="leading" secondItem="kYq-Co-sad" secondAttribute="leadingMargin" id="h6c-41-8yc"/>
+                            <constraint firstItem="o6y-FO-Sdh" firstAttribute="centerX" secondItem="kYq-Co-sad" secondAttribute="centerX" id="zBq-RU-HJ0"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZLg-ft-BTN" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -193,14 +287,41 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&quot;I was bitten by an Octopus&quot;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gsG-U2-82g">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="&quot;I was bitten by an Octopus&quot;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gsG-U2-82g">
                                 <rect key="frame" x="20" y="83" width="560" height="38"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fwb-4i-ybA">
+                                <rect key="frame" x="207" y="417" width="187" height="75"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Ted Cruz"/>
+                                <connections>
+                                    <segue destination="OnY-Zr-Wc4" kind="show" id="1do-s4-K8b"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6EM-do-xdx">
+                                <rect key="frame" x="219" y="262" width="163" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Teddy Roosevelt"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="toI-Qe-NaR">
+                                <rect key="frame" x="219" y="182" width="163" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Donald Trump"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z1W-ZQ-Jnd">
+                                <rect key="frame" x="219" y="342" width="163" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="DJ Khaled"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.52510364430000001" green="0.6385161976" blue="0.81109927400000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="gsG-U2-82g" firstAttribute="centerX" secondItem="fTu-cZ-yAg" secondAttribute="centerX" id="eNb-mS-LU4"/>
+                            <constraint firstItem="Fwb-4i-ybA" firstAttribute="centerX" secondItem="fTu-cZ-yAg" secondAttribute="centerX" id="j27-wN-w2T"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UQO-YE-qs4" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -219,14 +340,43 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&quot;If you tell a big enough lie and tell it frequently enough, It will be believed.&quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ePt-gI-Imc">
-                                <rect key="frame" x="20" y="66" width="560" height="95"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="&quot;If you tell a big enough lie and tell it frequently enough, It will be believed.&quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ePt-gI-Imc">
+                                <rect key="frame" x="20" y="66" width="560" height="133"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CcH-W7-SqS">
+                                <rect key="frame" x="223" y="207" width="154" height="83"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Adolf Hitler"/>
+                                <connections>
+                                    <segue destination="jGG-Mq-gtD" kind="show" id="9Et-UE-6SL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zFt-pY-2Iu">
+                                <rect key="frame" x="219" y="298" width="163" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Hilary Clinton"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T6l-zU-rAb">
+                                <rect key="frame" x="219" y="378" width="163" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Joseph Stalin"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jfW-nG-iwa">
+                                <rect key="frame" x="200" y="458" width="200" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Alexander the Great"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.84651199489999995" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="ePt-gI-Imc" firstAttribute="trailing" secondItem="vGn-rB-Zld" secondAttribute="trailingMargin" id="DFG-SK-qUY"/>
+                            <constraint firstItem="ePt-gI-Imc" firstAttribute="leading" secondItem="vGn-rB-Zld" secondAttribute="leadingMargin" id="OWI-nJ-GQX"/>
+                            <constraint firstItem="ePt-gI-Imc" firstAttribute="centerX" secondItem="vGn-rB-Zld" secondAttribute="centerX" id="gai-5N-wKc"/>
+                            <constraint firstItem="CcH-W7-SqS" firstAttribute="centerX" secondItem="vGn-rB-Zld" secondAttribute="centerX" id="xTc-lh-SYc"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dfq-CL-1Ps" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -245,19 +395,48 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&quot;Death is the solution to all problems. No man - no problem&quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3w9-H1-6Y1">
-                                <rect key="frame" x="20" y="73" width="560" height="82"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="&quot;Death is the solution to all problems. No man - no problem&quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3w9-H1-6Y1">
+                                <rect key="frame" x="20" y="73" width="560" height="122"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IbA-7o-tLP">
+                                <rect key="frame" x="231" y="290" width="138" height="89"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Joseph Stalin"/>
+                                <connections>
+                                    <segue destination="UPh-Lk-VAa" kind="show" id="hqu-bv-VxC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ot-Ux-yeW">
+                                <rect key="frame" x="219" y="380" width="163" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Adolf Hitler"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2oN-ED-7s5">
+                                <rect key="frame" x="210" y="460" width="181" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Muhatama Ghandi"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="grd-kL-8yd">
+                                <rect key="frame" x="219" y="210" width="163" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Bernie Sanders"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.52510364430000001" green="0.6385161976" blue="0.81109927400000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="3w9-H1-6Y1" firstAttribute="centerX" secondItem="Hrr-b2-Uev" secondAttribute="centerX" id="33O-dz-fsa"/>
+                            <constraint firstItem="3w9-H1-6Y1" firstAttribute="trailing" secondItem="Hrr-b2-Uev" secondAttribute="trailingMargin" id="6zh-2l-TU9"/>
+                            <constraint firstItem="IbA-7o-tLP" firstAttribute="centerX" secondItem="Hrr-b2-Uev" secondAttribute="centerX" id="ARS-42-XeS"/>
+                            <constraint firstItem="3w9-H1-6Y1" firstAttribute="leading" secondItem="Hrr-b2-Uev" secondAttribute="leadingMargin" id="Ou3-mH-eGz"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ilb-IW-c3C" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4778" y="323"/>
+            <point key="canvasLocation" x="8578" y="323"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="p1J-nz-vYg">
@@ -271,19 +450,48 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&quot;Let us have a dagger between out teeth, a bomb in our hands, and a infinite scorn in our hearts.&quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K2E-hm-57b">
-                                <rect key="frame" x="20" y="72" width="560" height="116"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ix6-sd-WEe">
+                                <rect key="frame" x="229" y="195" width="163" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Napolean"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="&quot;Let us have a dagger between out teeth, a bomb in our hands, and a infinite scorn in our hearts.&quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K2E-hm-57b">
+                                <rect key="frame" x="20" y="44" width="560" height="168"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V4h-eE-emW">
+                                <rect key="frame" x="229" y="275" width="163" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Joseph Stalin"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="386-Lq-V1A">
+                                <rect key="frame" x="229" y="355" width="163" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Adolf Hitler"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rue-gP-MpX">
+                                <rect key="frame" x="219" y="435" width="183" height="92"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Benito Mussolini"/>
+                                <connections>
+                                    <segue destination="gJk-9W-Yaz" kind="show" id="bKx-wG-xK7"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.84651199489999995" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="K2E-hm-57b" firstAttribute="leading" secondItem="OVi-do-iEV" secondAttribute="leadingMargin" id="BYk-c8-xmf"/>
+                            <constraint firstItem="K2E-hm-57b" firstAttribute="centerX" secondItem="OVi-do-iEV" secondAttribute="centerX" id="efh-Pc-KNM"/>
+                            <constraint firstItem="K2E-hm-57b" firstAttribute="trailing" secondItem="OVi-do-iEV" secondAttribute="trailingMargin" id="nR4-rk-Usf"/>
+                            <constraint firstItem="Rue-gP-MpX" firstAttribute="centerX" secondItem="OVi-do-iEV" secondAttribute="centerX" id="qi6-2D-Zb0"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Qh-Bi-eH9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5414" y="323"/>
+            <point key="canvasLocation" x="9226" y="323"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="hO9-mc-W6P">
@@ -297,14 +505,43 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&quot;The only thing you have to fear is fear itself.&quot;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xc6-oH-cyl">
-                                <rect key="frame" x="20" y="81" width="560" height="67"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="&quot;The only thing you have to fear is fear itself.&quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xc6-oH-cyl">
+                                <rect key="frame" x="20" y="81" width="560" height="101"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y2D-df-zGP">
+                                <rect key="frame" x="198" y="288" width="205" height="64"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Franklin D. Roosevelt"/>
+                                <connections>
+                                    <segue destination="C49-hO-Mce" kind="show" id="Sbj-as-F33"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aZT-b3-NfH">
+                                <rect key="frame" x="219" y="208" width="163" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Ronald Reagan"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ibn-0Z-fCh">
+                                <rect key="frame" x="219" y="436" width="163" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Jimmy Carter"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ddZ-Om-iiB">
+                                <rect key="frame" x="219" y="360" width="163" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Teddy Roosevelt"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.52510364430000001" green="0.6385161976" blue="0.81109927400000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="xc6-oH-cyl" firstAttribute="centerX" secondItem="G9O-G9-9tB" secondAttribute="centerX" id="6wO-bQ-v51"/>
+                            <constraint firstItem="xc6-oH-cyl" firstAttribute="trailing" secondItem="G9O-G9-9tB" secondAttribute="trailingMargin" id="L8N-4T-0gu"/>
+                            <constraint firstItem="xc6-oH-cyl" firstAttribute="leading" secondItem="G9O-G9-9tB" secondAttribute="leadingMargin" id="ReD-Lk-1dy"/>
+                            <constraint firstItem="y2D-df-zGP" firstAttribute="centerX" secondItem="G9O-G9-9tB" secondAttribute="centerX" id="s0v-HQ-1oE"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BY6-ZV-2T7" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -323,14 +560,43 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&quot;Mr. Gorbachev tear down that wall&quot;." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ket-cV-gOW">
-                                <rect key="frame" x="20" y="58" width="560" height="115"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yEl-IO-Mm6">
+                                <rect key="frame" x="231" y="443" width="153" height="76"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Ronald Reagan"/>
+                                <connections>
+                                    <segue destination="drf-fq-fNa" kind="show" id="LFd-6N-Weo"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="&quot;Mr. Gorbachev tear down that wall&quot;." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ket-cV-gOW">
+                                <rect key="frame" x="20" y="60" width="560" height="128"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M0t-mA-XQN">
+                                <rect key="frame" x="226" y="363" width="163" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Barrack Obama"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CQi-Rj-v4D">
+                                <rect key="frame" x="226" y="203" width="163" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="John Adams"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jQS-Cw-3Sz">
+                                <rect key="frame" x="226" y="283" width="163" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Napoleon"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.84651199489999995" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="ket-cV-gOW" firstAttribute="centerX" secondItem="xGK-2e-qiA" secondAttribute="centerX" id="gOL-3Z-jQl"/>
+                            <constraint firstItem="yEl-IO-Mm6" firstAttribute="centerX" secondItem="xGK-2e-qiA" secondAttribute="centerX" id="u83-zW-VCK"/>
+                            <constraint firstItem="ket-cV-gOW" firstAttribute="leading" secondItem="xGK-2e-qiA" secondAttribute="leadingMargin" id="vPS-vK-mXf"/>
+                            <constraint firstItem="ket-cV-gOW" firstAttribute="trailing" secondItem="xGK-2e-qiA" secondAttribute="trailingMargin" id="z1f-Sj-BF7"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ab9-ng-nz2" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -349,14 +615,43 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&quot;A house divided agaisnt itself cannot stand.&quot;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BWi-EU-qKN">
-                                <rect key="frame" x="20" y="99" width="560" height="67"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CMy-YB-MA1">
+                                <rect key="frame" x="214" y="376" width="172" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Abraham Lincoln"/>
+                                <connections>
+                                    <segue destination="1o2-il-kQG" kind="show" id="wf2-Gh-ojq"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="&quot;A house divided agaisnt itself cannot stand.&quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BWi-EU-qKN">
+                                <rect key="frame" x="20" y="75" width="560" height="99"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SQM-9r-hIA">
+                                <rect key="frame" x="212" y="296" width="178" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Thomas Jefferson"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="amY-qf-EXI">
+                                <rect key="frame" x="219" y="456" width="163" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Jimmy Carter"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9mh-kh-Se7">
+                                <rect key="frame" x="204" y="216" width="194" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="George Washington"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.52510364430000001" green="0.6385161976" blue="0.81109927400000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="BWi-EU-qKN" firstAttribute="centerX" secondItem="MXr-O0-OKh" secondAttribute="centerX" id="KLB-jk-jAW"/>
+                            <constraint firstItem="CMy-YB-MA1" firstAttribute="centerX" secondItem="MXr-O0-OKh" secondAttribute="centerX" id="Uu4-sp-QB0"/>
+                            <constraint firstItem="BWi-EU-qKN" firstAttribute="trailing" secondItem="MXr-O0-OKh" secondAttribute="trailingMargin" id="ktU-Xe-Ugd"/>
+                            <constraint firstItem="BWi-EU-qKN" firstAttribute="leading" secondItem="MXr-O0-OKh" secondAttribute="leadingMargin" id="qMc-Y1-OKT"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YCG-Dx-IvU" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -375,19 +670,46 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&quot;They don't want you to win.&quot;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PlM-n4-ajd">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="&quot;They don't want you to win.&quot;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PlM-n4-ajd">
                                 <rect key="frame" x="20" y="94" width="560" height="67"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="94z-EK-8Le">
+                                <rect key="frame" x="202" y="187" width="196" height="69"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="DJ Khaled"/>
+                                <connections>
+                                    <segue destination="u7m-Es-S7B" kind="show" id="pCZ-WO-cAm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vF0-g8-Kvk">
+                                <rect key="frame" x="219" y="344" width="163" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="George W. Bush"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s3G-YB-Qld">
+                                <rect key="frame" x="219" y="264" width="163" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Donald Trump"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aHF-eZ-Vc7">
+                                <rect key="frame" x="219" y="424" width="163" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Lyndon Johnson"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.84651199489999995" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="PlM-n4-ajd" firstAttribute="centerX" secondItem="1sj-Qr-kFg" secondAttribute="centerX" id="6oW-0f-4Oz"/>
+                            <constraint firstItem="94z-EK-8Le" firstAttribute="centerX" secondItem="1sj-Qr-kFg" secondAttribute="centerX" id="dzQ-am-tqX"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dvc-uL-0u2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7942" y="323"/>
+            <point key="canvasLocation" x="7944" y="323"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="N8I-gj-mRC">
@@ -401,19 +723,48 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&quot;The Constitution is the guide which I will never abandon.&quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I5j-Og-sCH">
-                                <rect key="frame" x="20" y="90" width="560" height="105"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="&quot;The Constitution is the guide which I will never abandon.&quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I5j-Og-sCH">
+                                <rect key="frame" x="20" y="74" width="560" height="105"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mt7-fH-bFI">
+                                <rect key="frame" x="198" y="199" width="205" height="78"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="George Washington"/>
+                                <connections>
+                                    <segue destination="6RJ-jA-GhW" kind="show" id="zgo-fT-Q10"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3DO-wq-Xn0">
+                                <rect key="frame" x="219" y="285" width="163" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Abe Lincoln"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D0u-Xe-JKT">
+                                <rect key="frame" x="219" y="365" width="163" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Donald Trump"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JrI-cK-K1A">
+                                <rect key="frame" x="212" y="445" width="178" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Thomas Jefferson"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.52510364430000001" green="0.6385161976" blue="0.81109927400000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="I5j-Og-sCH" firstAttribute="trailing" secondItem="hKR-ld-Fc2" secondAttribute="trailingMargin" id="Ehg-uV-oC1"/>
+                            <constraint firstItem="I5j-Og-sCH" firstAttribute="centerX" secondItem="hKR-ld-Fc2" secondAttribute="centerX" id="NSm-Mu-6D0"/>
+                            <constraint firstItem="I5j-Og-sCH" firstAttribute="leading" secondItem="hKR-ld-Fc2" secondAttribute="leadingMargin" id="fWV-dE-4QV"/>
+                            <constraint firstItem="mt7-fH-bFI" firstAttribute="centerX" secondItem="hKR-ld-Fc2" secondAttribute="centerX" id="vGN-9u-0rV"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x44-Ae-5OC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8581" y="323"/>
+            <point key="canvasLocation" x="2225" y="323"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="XtE-SK-D0B">
@@ -427,19 +778,48 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&quot;Forgive your enemies, but never forget their names.&quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uYA-RE-YPf">
-                                <rect key="frame" x="20" y="97" width="560" height="90"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vFe-Hr-sq5">
+                                <rect key="frame" x="203" y="466" width="194" height="69"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="John F. Kennedy"/>
+                                <connections>
+                                    <segue destination="omd-yN-2M7" kind="show" id="zUt-n5-8jf"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="&quot;Forgive your enemies, but never forget their names.&quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uYA-RE-YPf">
+                                <rect key="frame" x="20" y="62" width="560" height="109"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nev-P7-nmL">
+                                <rect key="frame" x="214" y="386" width="173" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Winston Churchill"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WPb-p2-CdR">
+                                <rect key="frame" x="192" y="216" width="216" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Franklin D. Roosevelt"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AIf-81-r87">
+                                <rect key="frame" x="219" y="296" width="163" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Adolf Hitler"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.84651199489999995" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="uYA-RE-YPf" firstAttribute="centerX" secondItem="uwm-ZM-Bz3" secondAttribute="centerX" id="13P-R8-J8v"/>
+                            <constraint firstItem="uYA-RE-YPf" firstAttribute="leading" secondItem="uwm-ZM-Bz3" secondAttribute="leadingMargin" id="cAg-E1-MIn"/>
+                            <constraint firstItem="vFe-Hr-sq5" firstAttribute="centerX" secondItem="uwm-ZM-Bz3" secondAttribute="centerX" id="mTp-GV-aFy"/>
+                            <constraint firstItem="uYA-RE-YPf" firstAttribute="trailing" secondItem="uwm-ZM-Bz3" secondAttribute="trailingMargin" id="zjM-Bf-nwC"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A1n-Fu-6JK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9220" y="323"/>
+            <point key="canvasLocation" x="5430" y="323"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="xGr-QD-RAF">
@@ -453,14 +833,43 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&quot;Freedom itself was attacked this morning by a faceless coward, and freedom will be defended.&quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wbL-Im-Fpr">
-                                <rect key="frame" x="20" y="89" width="560" height="108"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="&quot;Freedom itself was attacked this morning by a faceless coward, and freedom will be defended.&quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wbL-Im-Fpr">
+                                <rect key="frame" x="20" y="41" width="560" height="171"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WFA-fK-JDh">
+                                <rect key="frame" x="204" y="277" width="194" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="George Washington"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TLS-iV-rvR">
+                                <rect key="frame" x="219" y="357" width="163" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="George Bush Sr."/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vox-TP-aY1">
+                                <rect key="frame" x="219" y="437" width="163" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Donald Trump"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FYK-qW-Cmu">
+                                <rect key="frame" x="200" y="192" width="200" height="85"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="George Bush Jr."/>
+                                <connections>
+                                    <segue destination="opk-ii-ADD" kind="show" id="LQ7-H9-JgI"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.52510364430000001" green="0.6385161976" blue="0.81109927400000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="wbL-Im-Fpr" firstAttribute="trailing" secondItem="sWq-XJ-W4W" secondAttribute="trailingMargin" id="kXA-76-bQy"/>
+                            <constraint firstItem="wbL-Im-Fpr" firstAttribute="centerX" secondItem="sWq-XJ-W4W" secondAttribute="centerX" id="kuh-Lt-raM"/>
+                            <constraint firstItem="wbL-Im-Fpr" firstAttribute="leading" secondItem="sWq-XJ-W4W" secondAttribute="leadingMargin" id="vJl-Tw-OXJ"/>
+                            <constraint firstItem="FYK-qW-Cmu" firstAttribute="centerX" secondItem="sWq-XJ-W4W" secondAttribute="centerX" id="xod-nt-Td2"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6RT-FG-e2H" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -479,14 +888,43 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&quot;If you're going through hell, keep going.&quot;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5sK-CN-qyq">
-                                <rect key="frame" x="20" y="101" width="560" height="67"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v4C-Sr-eFb">
+                                <rect key="frame" x="206" y="367" width="188" height="96"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Winston Churchill"/>
+                                <connections>
+                                    <segue destination="KM0-uE-mMO" kind="show" id="e01-Vy-R6L"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="&quot;If you're going through hell, keep going.&quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5sK-CN-qyq">
+                                <rect key="frame" x="20" y="75" width="560" height="124"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="If4-Ff-Gmz">
+                                <rect key="frame" x="219" y="207" width="163" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Ronald Reagan"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qUx-SX-dE9">
+                                <rect key="frame" x="206" y="287" width="189" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Dwight Eisenhower"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DIr-l8-1uA">
+                                <rect key="frame" x="218" y="471" width="166" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Woodrow Wilson"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.84651199489999995" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="5sK-CN-qyq" firstAttribute="centerX" secondItem="Srg-M4-cCZ" secondAttribute="centerX" id="IE1-uv-UDe"/>
+                            <constraint firstItem="5sK-CN-qyq" firstAttribute="leading" secondItem="Srg-M4-cCZ" secondAttribute="leadingMargin" id="OCz-Wc-7Fd"/>
+                            <constraint firstItem="5sK-CN-qyq" firstAttribute="trailing" secondItem="Srg-M4-cCZ" secondAttribute="trailingMargin" id="nTQ-D0-d92"/>
+                            <constraint firstItem="v4C-Sr-eFb" firstAttribute="centerX" secondItem="Srg-M4-cCZ" secondAttribute="centerX" id="stZ-tJ-4PX"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0jd-Zj-rkW" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -505,14 +943,43 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&quot;Speak softly and carry a big stick; you will go far.&quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LNy-Ln-LwF">
-                                <rect key="frame" x="20" y="103" width="560" height="67"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zpN-we-YZR">
+                                <rect key="frame" x="205" y="234" width="191" height="56"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Teddy Rossevelt"/>
+                                <connections>
+                                    <segue destination="QNW-bb-YER" kind="show" id="rxK-be-WYU"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="&quot;Speak softly and carry a big stick; you will go far.&quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LNy-Ln-LwF">
+                                <rect key="frame" x="20" y="103" width="560" height="100"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hbs-PF-Tck">
+                                <rect key="frame" x="219" y="298" width="163" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="William Taft"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bNC-Hf-Q0d">
+                                <rect key="frame" x="219" y="378" width="163" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Kendrick Lamar"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eAJ-EN-YAP">
+                                <rect key="frame" x="198" y="458" width="205" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Franklin D. Roosevelt"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.52510364430000001" green="0.6385161976" blue="0.81109927400000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="LNy-Ln-LwF" firstAttribute="centerX" secondItem="ve1-ZW-vJL" secondAttribute="centerX" id="IUi-s6-9p8"/>
+                            <constraint firstItem="LNy-Ln-LwF" firstAttribute="leading" secondItem="ve1-ZW-vJL" secondAttribute="leadingMargin" id="Ngn-Ov-K52"/>
+                            <constraint firstItem="LNy-Ln-LwF" firstAttribute="trailing" secondItem="ve1-ZW-vJL" secondAttribute="trailingMargin" id="Uc2-6j-xsB"/>
+                            <constraint firstItem="zpN-we-YZR" firstAttribute="centerX" secondItem="ve1-ZW-vJL" secondAttribute="centerX" id="zmn-9c-rOd"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4g3-6u-nFD" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -531,14 +998,43 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&quot;I am not afraid of an army of lions led by a sheep; I am afraid of an army of sheep led by a lion.&quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CyZ-rF-xmV">
-                                <rect key="frame" x="20" y="88" width="560" height="120"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jVJ-mL-xFd">
+                                <rect key="frame" x="195" y="223" width="210" height="77"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Alexander The Great"/>
+                                <connections>
+                                    <segue destination="tka-uA-Yqe" kind="show" id="ZXH-du-Q1t"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gyv-y8-PAk">
+                                <rect key="frame" x="219" y="308" width="163" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Donald Trump"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pP5-au-bJZ">
+                                <rect key="frame" x="219" y="388" width="163" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Joseph Stalin"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="&quot;I am not afraid of an army of lions led by a sheep; I am afraid of an army of sheep led by a lion.&quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CyZ-rF-xmV">
+                                <rect key="frame" x="20" y="45" width="560" height="170"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zUT-s0-pae">
+                                <rect key="frame" x="219" y="468" width="163" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Julius Ceasar"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.84651199489999995" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="jVJ-mL-xFd" firstAttribute="centerX" secondItem="k1s-2S-byK" secondAttribute="centerX" id="2yc-hI-OE6"/>
+                            <constraint firstItem="CyZ-rF-xmV" firstAttribute="trailing" secondItem="k1s-2S-byK" secondAttribute="trailingMargin" id="S5x-I5-g9R"/>
+                            <constraint firstItem="CyZ-rF-xmV" firstAttribute="leading" secondItem="k1s-2S-byK" secondAttribute="leadingMargin" id="mY1-wR-CDk"/>
+                            <constraint firstItem="CyZ-rF-xmV" firstAttribute="centerX" secondItem="k1s-2S-byK" secondAttribute="centerX" id="vTz-8t-Psn"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rZV-yE-9Yq" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -557,14 +1053,43 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&quot;I did not have sexual relations with that woman.&quot;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NWs-gb-ocd">
-                                <rect key="frame" x="14" y="81" width="566" height="88"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="&quot;I did not have sexual relations with that woman.&quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NWs-gb-ocd">
+                                <rect key="frame" x="20" y="67" width="560" height="110"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tqu-jf-Yuh">
+                                <rect key="frame" x="219" y="345" width="163" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Lyndon Johnson"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hDh-kA-lQ8">
+                                <rect key="frame" x="219" y="265" width="163" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Hillary Clinton"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5KO-1y-8TZ">
+                                <rect key="frame" x="219" y="185" width="163" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Richard Nixon"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="byJ-2F-NFy">
+                                <rect key="frame" x="233" y="425" width="135" height="69"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Bill Clinton"/>
+                                <connections>
+                                    <segue destination="Jpt-lY-ey7" kind="show" id="R7H-ES-DdZ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.52510364430000001" green="0.6385161976" blue="0.81109927400000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="byJ-2F-NFy" firstAttribute="centerX" secondItem="Q49-O7-JeZ" secondAttribute="centerX" id="1tV-Ab-qj3"/>
+                            <constraint firstItem="NWs-gb-ocd" firstAttribute="centerX" secondItem="Q49-O7-JeZ" secondAttribute="centerX" id="6DQ-hP-g7d"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="NWs-gb-ocd" secondAttribute="trailing" constant="-4" id="CGF-bQ-3pA"/>
+                            <constraint firstItem="NWs-gb-ocd" firstAttribute="leading" secondItem="Q49-O7-JeZ" secondAttribute="leadingMargin" constant="-4" id="rgv-QI-i8d"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Mg-xX-ENw" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -583,14 +1108,43 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&quot;The problem with socialism is thtat you eventually run out of other peoples money.&quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hUu-s1-OTK">
-                                <rect key="frame" x="20" y="96" width="560" height="74"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="&quot;The problem with socialism is that you eventually run out of other peoples money.&quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hUu-s1-OTK">
+                                <rect key="frame" x="20" y="96" width="560" height="125"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aml-Dj-f3Z">
+                                <rect key="frame" x="219" y="237" width="192" height="63"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Margret Thatcher"/>
+                                <connections>
+                                    <segue destination="nHb-EW-lQh" kind="show" id="jvJ-tr-ZPa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2US-U5-LcY">
+                                <rect key="frame" x="234" y="388" width="163" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Ronald Reagan"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="528-22-3k6">
+                                <rect key="frame" x="234" y="308" width="163" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="John Kasich"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vT5-bS-P8T">
+                                <rect key="frame" x="229" y="468" width="173" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Winston Churchill"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.84651199489999995" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="hUu-s1-OTK" firstAttribute="trailing" secondItem="DKf-qd-DOz" secondAttribute="trailingMargin" id="Rhk-EB-YjI"/>
+                            <constraint firstItem="hUu-s1-OTK" firstAttribute="leading" secondItem="DKf-qd-DOz" secondAttribute="leadingMargin" id="UJT-41-170"/>
+                            <constraint firstItem="hUu-s1-OTK" firstAttribute="centerX" secondItem="DKf-qd-DOz" secondAttribute="centerX" id="gDy-QW-DDx"/>
+                            <constraint firstItem="Aml-Dj-f3Z" firstAttribute="centerX" secondItem="DKf-qd-DOz" secondAttribute="centerX" id="ifB-bJ-GPU"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qPN-zB-HAT" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -609,14 +1163,40 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&quot;I can take it. The tougher it gets, the cooler I get.&quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cGJ-nY-hBh">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="&quot;I can take it. The tougher it gets, the cooler I get.&quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cGJ-nY-hBh">
                                 <rect key="frame" x="20" y="92" width="560" height="80"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uug-Dk-Lgz">
+                                <rect key="frame" x="212" y="465" width="176" height="66"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Richard Nixon"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aUn-ff-hLt">
+                                <rect key="frame" x="219" y="217" width="163" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Teddy Roosevelt"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xce-Af-cqY">
+                                <rect key="frame" x="198" y="291" width="205" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Franklin D. Roosevelt"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G7D-uy-MtM">
+                                <rect key="frame" x="219" y="371" width="163" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Donald Trump"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.52510364430000001" green="0.6385161976" blue="0.81109927400000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="cGJ-nY-hBh" firstAttribute="leading" secondItem="agR-O8-tSi" secondAttribute="leadingMargin" id="20t-5c-wmU"/>
+                            <constraint firstItem="cGJ-nY-hBh" firstAttribute="centerX" secondItem="agR-O8-tSi" secondAttribute="centerX" id="3FD-NW-Q17"/>
+                            <constraint firstItem="uug-Dk-Lgz" firstAttribute="centerX" secondItem="agR-O8-tSi" secondAttribute="centerX" id="AwW-rT-ZgF"/>
+                            <constraint firstItem="cGJ-nY-hBh" firstAttribute="trailing" secondItem="agR-O8-tSi" secondAttribute="trailingMargin" id="tqA-l8-tRr"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iLb-iv-P0e" userLabel="First Responder" sceneMemberID="firstResponder"/>
