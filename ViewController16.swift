@@ -26,5 +26,12 @@ class ViewController16: UIViewController {
     
     @IBAction func onTapRoosevelt16Button(sender: UIButton) { roosevelt16Button.setTitleColor(self.view.backgroundColor, forState: UIControlState.Normal)
     }
-   
-}
+    @IBAction func onTapTRoosevelt16Button(sender: UIButton) { taft16Button.setTitleColor(UIColor.redColor(), forState: UIControlState.Normal)
+        lamar16Button.setTitleColor(UIColor.redColor(), forState: UIControlState.Normal)
+        roosevelt16Button.setTitleColor(UIColor.redColor(), forState: UIControlState.Normal)
+
+    }
+    
+
+    }
+

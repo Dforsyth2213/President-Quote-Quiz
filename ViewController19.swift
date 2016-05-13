@@ -26,4 +26,9 @@ class ViewController19: UIViewController {
     
     @IBAction func onTapChurchill19Button(sender: UIButton) { churchill19Button.setTitleColor(self.view.backgroundColor, forState: UIControlState.Normal)
     }
+    @IBAction func onTapThatcher19Button(sender: UIButton) { kasich19Button.setTitleColor(UIColor.blueColor(), forState: UIControlState.Normal)
+        reagan19Button.setTitleColor(UIColor.blueColor(), forState: UIControlState.Normal)
+        churchill19Button.setTitleColor(UIColor.blueColor(), forState: UIControlState.Normal)
+
+    }
 }

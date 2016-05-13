@@ -26,4 +26,10 @@ class ViewController15: UIViewController {
     
     @IBAction func onTapWilson15Button(sender: UIButton) { wilson15Button.setTitleColor(self.view.backgroundColor, forState: UIControlState.Normal)
     }
+    
+    @IBAction func onTapChurchill15Button(sender: UIButton) { reagan15Button.setTitleColor(UIColor.blueColor(), forState: UIControlState.Normal)
+        eisenhower15Button.setTitleColor(UIColor.blueColor(), forState: UIControlState.Normal)
+        wilson15Button.setTitleColor(UIColor.blueColor(), forState: UIControlState.Normal)
+
+    }
 }

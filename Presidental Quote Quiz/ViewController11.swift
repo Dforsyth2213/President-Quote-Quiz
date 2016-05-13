@@ -25,5 +25,9 @@ class ViewController11: UIViewController {
     
     @IBAction func onTapJohnson11Button(sender: UIButton) { johnson11Button.setTitleColor(self.view.backgroundColor, forState: UIControlState.Normal)
     }
+    @IBAction func onTapKhaled11Button(sender: UIButton) { trump11Button.setTitleColor(UIColor.blueColor(), forState: UIControlState.Normal)
+        bush11Button.setTitleColor(UIColor.blueColor(), forState: UIControlState.Normal)
+        johnson11Button.setTitleColor(UIColor.blueColor(), forState: UIControlState.Normal)
+    }
 
 }

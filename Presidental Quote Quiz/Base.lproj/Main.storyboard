@@ -224,6 +224,7 @@
                                     <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="onTapHClinton6Button:" destination="jGG-Mq-gtD" eventType="touchUpInside" id="aKW-dc-a1v"/>
                                     <segue destination="Y30-S9-SAI" kind="show" id="gag-p7-hkV"/>
                                 </connections>
                             </button>
@@ -401,6 +402,7 @@
                                     <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="onTapCruz4Button:" destination="qS8-uo-NHB" eventType="touchUpInside" id="J38-5j-3mh"/>
                                     <segue destination="OnY-Zr-Wc4" kind="show" id="1do-s4-K8b"/>
                                 </connections>
                             </button>
@@ -523,6 +525,7 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="onTapHitler5Button:" destination="OnY-Zr-Wc4" eventType="touchUpInside" id="g0o-k0-iEp"/>
                                     <segue destination="jGG-Mq-gtD" kind="show" id="9Et-UE-6SL"/>
                                 </connections>
                             </button>
@@ -575,6 +578,7 @@
                                     <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="onTapStalin12Button:" destination="u7m-Es-S7B" eventType="touchUpInside" id="ct1-qf-0DK"/>
                                     <segue destination="UPh-Lk-VAa" kind="show" id="hqu-bv-VxC"/>
                                 </connections>
                             </button>
@@ -694,6 +698,7 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="onTapMussolini13Button:" destination="UPh-Lk-VAa" eventType="touchUpInside" id="iBb-zv-gpD"/>
                                     <segue destination="gJk-9W-Yaz" kind="show" id="bKx-wG-xK7"/>
                                 </connections>
                             </button>
@@ -752,6 +757,7 @@
                                     <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="onTapFDRoosevelt8Button:" destination="omd-yN-2M7" eventType="touchUpInside" id="Q2W-gV-a2a"/>
                                     <segue destination="C49-hO-Mce" kind="show" id="Sbj-as-F33"/>
                                 </connections>
                             </button>
@@ -834,6 +840,7 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="onTapReagan10Button:" destination="C49-hO-Mce" eventType="touchUpInside" id="WfE-T8-bPX"/>
                                     <segue destination="drf-fq-fNa" kind="show" id="LFd-6N-Weo"/>
                                 </connections>
                             </button>
@@ -922,6 +929,7 @@
                                     <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="onTapLincoln10Button:" destination="drf-fq-fNa" eventType="touchUpInside" id="Di8-se-rnv"/>
                                     <segue destination="1o2-il-kQG" kind="show" id="wf2-Gh-ojq"/>
                                 </connections>
                             </button>
@@ -1016,6 +1024,7 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="onTapKhaled11Button:" destination="1o2-il-kQG" eventType="touchUpInside" id="mj2-zE-Cal"/>
                                     <segue destination="u7m-Es-S7B" kind="show" id="pCZ-WO-cAm"/>
                                 </connections>
                             </button>
@@ -1185,6 +1194,7 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="onTapKennedy7Button:" destination="Y30-S9-SAI" eventType="touchUpInside" id="rZs-BT-K1D"/>
                                     <segue destination="omd-yN-2M7" kind="show" id="zUt-n5-8jf"/>
                                 </connections>
                             </button>
@@ -1273,6 +1283,7 @@
                                     <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="onTapGeorgeBushJr14Button:" destination="gJk-9W-Yaz" eventType="touchUpInside" id="Gy0-IN-wie"/>
                                     <segue destination="opk-ii-ADD" kind="show" id="LQ7-H9-JgI"/>
                                 </connections>
                             </button>
@@ -1361,6 +1372,7 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="onTapChurchill15Button:" destination="opk-ii-ADD" eventType="touchUpInside" id="Zpc-F3-LCM"/>
                                     <segue destination="KM0-uE-mMO" kind="show" id="8pB-o7-hFl"/>
                                 </connections>
                             </button>
@@ -1442,16 +1454,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zpN-we-YZR">
-                                <rect key="frame" x="205" y="234" width="191" height="56"/>
-                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="22"/>
-                                <state key="normal" title="Teddy Rossevelt">
-                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="QNW-bb-YER" kind="show" id="rxK-be-WYU"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="&quot;Speak softly and carry a big stick; you will go far.&quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LNy-Ln-LwF">
                                 <rect key="frame" x="20" y="103" width="560" height="100"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
@@ -1494,6 +1496,17 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zpN-we-YZR">
+                                <rect key="frame" x="205" y="234" width="191" height="56"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="22"/>
+                                <state key="normal" title="Teddy Roosevelt">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="onTapTRoosevelt16Button:" destination="KM0-uE-mMO" eventType="touchUpInside" id="Jd0-Pb-GiU"/>
+                                    <segue destination="QNW-bb-YER" kind="show" id="rxK-be-WYU"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.52510364430000001" green="0.6385161976" blue="0.81109927400000004" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -1537,6 +1550,7 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="onTapAlexander17Button:" destination="QNW-bb-YER" eventType="touchUpInside" id="KAe-mt-hU1"/>
                                     <segue destination="tka-uA-Yqe" kind="show" id="ZXH-du-Q1t"/>
                                 </connections>
                             </button>
@@ -1626,6 +1640,7 @@
                                     <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="onTapBClinton18Button:" destination="tka-uA-Yqe" eventType="touchUpInside" id="McZ-06-oit"/>
                                     <segue destination="Jpt-lY-ey7" kind="show" id="R7H-ES-DdZ"/>
                                 </connections>
                             </button>
@@ -1721,6 +1736,7 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="onTapThatcher19Button:" destination="Jpt-lY-ey7" eventType="touchUpInside" id="2k9-Lf-jKu"/>
                                     <segue destination="nHb-EW-lQh" kind="show" id="jvJ-tr-ZPa"/>
                                 </connections>
                             </button>
@@ -1832,22 +1848,23 @@
                                     <action selector="onTapFRoosevelt20Button:" destination="nHb-EW-lQh" eventType="touchUpInside" id="VfD-gS-tbR"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uug-Dk-Lgz">
-                                <rect key="frame" x="212" y="445" width="176" height="66"/>
-                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="22"/>
-                                <state key="normal" title="Richard Nixon">
-                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="fuW-xu-d3M" kind="show" id="n9O-aP-w3f"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20/20" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="if5-qm-2tf">
                                 <rect key="frame" x="534" y="28" width="46" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f21-pP-9g3">
+                                <rect key="frame" x="219" y="451" width="176" height="66"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="22"/>
+                                <state key="normal" title="Richard Nixon">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="onTapNixon20Button:" destination="nHb-EW-lQh" eventType="touchUpInside" id="Ers-EN-XR7"/>
+                                    <segue destination="fuW-xu-d3M" kind="show" id="zFh-wg-oBH"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.52510364430000001" green="0.6385161976" blue="0.81109927400000004" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -1855,8 +1872,8 @@
                             <constraint firstItem="cGJ-nY-hBh" firstAttribute="centerX" secondItem="agR-O8-tSi" secondAttribute="centerX" id="3FD-NW-Q17"/>
                             <constraint firstItem="Xce-Af-cqY" firstAttribute="centerX" secondItem="agR-O8-tSi" secondAttribute="centerX" id="3Uk-Kx-diq"/>
                             <constraint firstItem="G7D-uy-MtM" firstAttribute="centerX" secondItem="agR-O8-tSi" secondAttribute="centerX" id="9uO-od-pQ0"/>
-                            <constraint firstItem="uug-Dk-Lgz" firstAttribute="centerX" secondItem="agR-O8-tSi" secondAttribute="centerX" id="AwW-rT-ZgF"/>
                             <constraint firstItem="aUn-ff-hLt" firstAttribute="centerX" secondItem="agR-O8-tSi" secondAttribute="centerX" id="MPH-5n-Do1"/>
+                            <constraint firstItem="f21-pP-9g3" firstAttribute="centerX" secondItem="agR-O8-tSi" secondAttribute="centerX" id="agW-dB-waY"/>
                             <constraint firstItem="if5-qm-2tf" firstAttribute="trailing" secondItem="agR-O8-tSi" secondAttribute="trailingMargin" id="tHC-qI-uaE"/>
                             <constraint firstItem="cGJ-nY-hBh" firstAttribute="trailing" secondItem="agR-O8-tSi" secondAttribute="trailingMargin" id="tqA-l8-tRr"/>
                             <constraint firstItem="if5-qm-2tf" firstAttribute="top" secondItem="bRH-Gh-jyk" secondAttribute="bottom" constant="8" id="u4O-Ze-GmX"/>

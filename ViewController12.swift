@@ -27,4 +27,10 @@ class ViewController12: UIViewController {
     
     @IBAction func onTapGhandi12Button(sender: UIButton) { ghandi12Button.setTitleColor(self.view.backgroundColor, forState: UIControlState.Normal)
     }
+    
+    @IBAction func onTapStalin12Button(sender: UIButton) { ghandi12Button.setTitleColor(UIColor.redColor(), forState: UIControlState.Normal)
+        hitler12Button.setTitleColor(UIColor.redColor(), forState: UIControlState.Normal)
+        sanders12Button.setTitleColor(UIColor.redColor(), forState: UIControlState.Normal)
+
+    }
 }

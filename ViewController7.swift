@@ -22,5 +22,9 @@ class ViewController7: UIViewController {
     }
     @IBAction func onTapChurchill7Button(sender: UIButton) { churchill7Button.setTitleColor(self.view.backgroundColor, forState: UIControlState.Normal)
     }
+    @IBAction func onTapKennedy7Button(sender: UIButton) { roosevelt7Button.setTitleColor(UIColor.blueColor(), forState: UIControlState.Normal)
+        hitler7Button.setTitleColor(UIColor.blueColor(), forState: UIControlState.Normal)
+        churchill7Button.setTitleColor(UIColor.blueColor(), forState: UIControlState.Normal)
+    }
 
 }

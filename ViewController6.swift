@@ -24,5 +24,9 @@ class ViewController6: UIViewController {
     }
     @IBAction func onTapPalin6Button(sender: UIButton) { palin6Button.setTitleColor(self.view.backgroundColor, forState: UIControlState.Normal)
     }
+    @IBAction func onTapHClinton6Button(sender: UIButton) { thatcher6Button.setTitleColor(UIColor.redColor(), forState: UIControlState.Normal)
+        fiorina6Button.setTitleColor(UIColor.redColor(), forState: UIControlState.Normal)
+        palin6Button.setTitleColor(UIColor.redColor(), forState: UIControlState.Normal)
+    }
 
 }

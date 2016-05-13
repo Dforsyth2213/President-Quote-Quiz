@@ -25,4 +25,9 @@ class ViewController18: UIViewController {
     
     @IBAction func onTapJohnson18Button(sender: UIButton) { johnson18Button.setTitleColor(self.view.backgroundColor, forState: UIControlState.Normal)
     }
+    @IBAction func onTapBClinton18Button(sender: UIButton) { nixon18Button.setTitleColor(UIColor.redColor(), forState: UIControlState.Normal)
+        clinton18Button.setTitleColor(UIColor.redColor(), forState: UIControlState.Normal)
+        johnson18Button.setTitleColor(UIColor.redColor(), forState: UIControlState.Normal)
+
+    }
 }

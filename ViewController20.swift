@@ -26,4 +26,9 @@ class ViewController20: UIViewController {
     
     @IBAction func onTapTrump20Button(sender: UIButton) { trump20Button.setTitleColor(self.view.backgroundColor, forState: UIControlState.Normal)
     }
+    @IBAction func onTapNixon20Button(sender: UIButton) { troosevelt20Button.setTitleColor(UIColor.redColor(), forState: UIControlState.Normal)
+        froosevelt20Button.setTitleColor(UIColor.redColor(), forState: UIControlState.Normal)
+        trump20Button.setTitleColor(UIColor.redColor(), forState: UIControlState.Normal)
+
+    }
 }

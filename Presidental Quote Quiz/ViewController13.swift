@@ -27,4 +27,10 @@ class ViewController13: UIViewController {
     
     @IBAction func onTapHitler13Button(sender: UIButton) { hitler13Button.setTitleColor(self.view.backgroundColor, forState: UIControlState.Normal)
     }
+    
+    @IBAction func onTapMussolini13Button(sender: UIButton) { napolean13Button.setTitleColor(UIColor.blueColor(), forState: UIControlState.Normal)
+        stalin13Button.setTitleColor(UIColor.blueColor(), forState: UIControlState.Normal)
+        hitler13Button.setTitleColor(UIColor.blueColor(), forState: UIControlState.Normal)
+
+    }
 }

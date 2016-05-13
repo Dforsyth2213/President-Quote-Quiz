@@ -24,4 +24,8 @@ class ViewController9: UIViewController {
 
     @IBAction func onTapObama9Button(sender: UIButton) { obama9Button.setTitleColor(self.view.backgroundColor, forState: UIControlState.Normal)
     }
+    @IBAction func onTapReagan10Button(sender: UIButton) { adams9Button.setTitleColor(UIColor.blueColor(), forState: UIControlState.Normal)
+        napoleon9Button.setTitleColor(UIColor.blueColor(), forState: UIControlState.Normal)
+        obama9Button.setTitleColor(UIColor.blueColor(), forState: UIControlState.Normal)
+    }
 }

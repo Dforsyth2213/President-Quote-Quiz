@@ -9,6 +9,7 @@
 import UIKit
 
 class ViewController5: UIViewController {
+    
     @IBOutlet weak var HClinton5Button: UIButton!
     @IBOutlet weak var stalin5Button: UIButton!
     @IBOutlet weak var ATG5Button: UIButton!
@@ -23,6 +24,12 @@ class ViewController5: UIViewController {
     @IBAction func onTapStalin5Button(sender: UIButton) { stalin5Button.setTitleColor(self.view.backgroundColor, forState: UIControlState.Normal)
     }
     @IBAction func onTapATG5Button(sender: UIButton) { ATG5Button.setTitleColor(self.view.backgroundColor, forState: UIControlState.Normal)
+    }
+    @IBAction func onTapHitler5Button(sender: UIButton) { HClinton5Button.setTitleColor(UIColor.blueColor(), forState: UIControlState.Normal)
+        stalin5Button.setTitleColor(UIColor.blueColor(), forState: UIControlState.Normal)
+        ATG5Button.setTitleColor(UIColor.blueColor(), forState: UIControlState.Normal)
+
+        
     }
   
 }

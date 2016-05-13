@@ -24,6 +24,13 @@ class ViewController4: UIViewController {
     }
     @IBAction func onTapKhaled4Button(sender: UIButton) { khaled4Button.setTitleColor(self.view.backgroundColor, forState: UIControlState.Normal)
     }
+    @IBAction func onTapCruz4Button(sender: UIButton) { trump4Button.setTitleColor(UIColor.redColor(), forState: UIControlState.Normal)
+        roosevelt4Button.setTitleColor(UIColor.redColor(), forState: UIControlState.Normal)
+        khaled4Button.setTitleColor(UIColor.redColor(), forState: UIControlState.Normal)
+
+
+    }
+
 
     
 }

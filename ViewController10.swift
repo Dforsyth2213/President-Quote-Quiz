@@ -23,5 +23,11 @@ class ViewController10: UIViewController {
     }
     @IBAction func onTapCarter10Button(sender: UIButton) { carter10Button.setTitleColor(self.view.backgroundColor, forState: UIControlState.Normal)
     }
+    @IBAction func onTapLincoln10Button(sender: UIButton) { washington10Button.setTitleColor(UIColor.redColor(), forState: UIControlState.Normal)
+    jefferson10Button.setTitleColor(UIColor.redColor(), forState: UIControlState.Normal)
+        carter10Button.setTitleColor(UIColor.redColor(), forState: UIControlState.Normal)
+
+
+    }
 
 }

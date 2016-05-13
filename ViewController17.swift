@@ -27,4 +27,9 @@ class ViewController17: UIViewController {
     
     @IBAction func onTapCeasar17Button(sender: UIButton) { ceasar17Button.setTitleColor(self.view.backgroundColor, forState: UIControlState.Normal)
     }
+    @IBAction func onTapAlexander17Button(sender: UIButton) { trump17Button.setTitleColor(UIColor.blueColor(), forState: UIControlState.Normal)
+        stalin17Button.setTitleColor(UIColor.blueColor(), forState: UIControlState.Normal)
+        ceasar17Button.setTitleColor(UIColor.blueColor(), forState: UIControlState.Normal)
+
+    }
 }

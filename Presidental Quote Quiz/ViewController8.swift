@@ -23,6 +23,11 @@ class ViewController8: UIViewController {
     }
     @IBAction func onTapCarter8Button(sender: UIButton) { carter8Button.setTitleColor(self.view.backgroundColor, forState: UIControlState.Normal)
     }
+    @IBAction func onTapFDRoosevelt8Button(sender: UIButton) { reagan8Button.setTitleColor(UIColor.redColor(), forState: UIControlState.Normal)
+        roosevelt8Button.setTitleColor(UIColor.redColor(), forState: UIControlState.Normal)
+        carter8Button.setTitleColor(UIColor.redColor(), forState: UIControlState.Normal)
+
+    }
 
 
 
